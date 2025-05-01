@@ -18,7 +18,7 @@ connectDB();
 app.use(express.json());
 
 const corsOptions = {
-  origin: "https://ques-ai-woad.vercel.app/", // Allow only this origin
+  origin: "https://ques-ai-woad.vercel.app", // Allow only this origin
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
 };
